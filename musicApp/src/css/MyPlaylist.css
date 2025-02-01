@@ -1,0 +1,323 @@
+/* /* 
+
+.my-playlist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ddd;
+}
+h2{
+  color: aliceblue;
+}
+
+.playlist-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.playlist-item {
+ 
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  position: relative;
+}
+
+.playlist-item h3 {
+  margin-top: 0;
+}
+
+.playlist-item p {
+  margin: 5px 0;
+}
+
+
+.tool-btn {
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.song-item img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 10px;
+}
+
+.song-details {
+  display: flex;
+  align-items: center;
+}
+.public {
+  background-color: #c9a3f4; 
+ 
+}
+.private {
+  background-color: #f4a3cd; 
+  font-weight: bold;
+} 
+
+.favorite-playlist
+{
+background-color: rgb(157, 0, 255);
+} */
+
+/*
+.my-playlist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ddd;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+.playlist-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.playlist-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  position: relative;
+}
+
+.playlist-item h3 {
+  margin-top: 0;
+}
+
+.playlist-item p {
+  margin: 5px 0;
+}
+
+.tool-btn {
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.song-item img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 10px;
+}
+
+.song-details {
+  display: flex;
+  align-items: center;
+}
+
+.public {
+  background-color: #c9a3f4;
+}
+
+.private {
+  background-image: url('../img/playlistImg.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8; 
+  font-weight: bold;
+}
+
+.favorite-playlist {
+  background-color: rgb(157, 0, 255);
+} */
+
+
+/* 
+//עם תמונת רקע+ עיצוב מסגרת לשירים שאהבתי
+.my-playlist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ddd;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+.playlist-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.playlist-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  position: relative;
+}
+
+.playlist-item h3 {
+  margin-top: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}
+
+.playlist-item p {
+  margin: 5px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}
+
+.tool-btn {
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: solid black 1.5px;
+  margin: 0 1px;
+}
+
+.song-item img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 10px;
+}
+
+.song-details {
+  display: flex;
+  align-items: center;
+}
+
+.public {
+  background-color: #1f1d22;
+}
+
+.private {
+  background-image: url('../img/playlistImg.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  border: groove rgb(232, 184, 231) 4px;
+}
+
+.private h3,
+.private p {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}
+
+.favorite-playlist {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+  border-style: groove;
+  border: groove rgb(255, 0, 251) 4px;
+}
+
+.favorite-playlist h3,
+.favorite-playlist p {
+  color: white; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+} */
+
+
+.my-playlist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ddd;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+.playlist-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.playlist-item {
+  padding: 10px;
+  border: groove 4px; /* מסגרת עם גוונים מתחלפים */
+  border-color: blue; /* צבע התחלה למסגרת */
+  border-radius: 5px;
+  width: 200px;
+  position: relative;
+  animation: border-color-change 5s infinite; /* אנימציה למסגרת */
+}
+
+.playlist-item h3 {
+  margin-top: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* צל לטקסט */
+}
+
+.playlist-item p {
+  margin: 5px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* צל לטקסט */
+}
+
+.tool-btn {
+  margin-top: 5px;
+  background-color: rgba(255, 255, 255, 0.5); /* רקע לבן עם שקיפות של 50% */
+}
+
+.song-item img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 10px;
+}
+
+.song-details {
+  display: flex;
+  align-items: center;
+}
+
+.public {
+  background-color: #151416;
+}
+
+.private {
+  background-image: url('../img/playlistImg.jpg'); /* נתיב יחסי לתמונה */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8; /* שקיפות של 80% */
+  font-weight: bold;
+}
+
+.private h3,
+.private p {
+  color: white; /* לוודא שהטקסט יהיה קריא מעל הרקע */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* צל לטקסט */
+}
+
+.favorite-playlist {
+  background-color: rgb(157, 0, 255);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* צל לטקסט */
+}
+
+.favorite-playlist h3,
+.favorite-playlist p {
+  color: white; /* לוודא שהטקסט יהיה קריא מעל הרקע */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* צל לטקסט */
+}
+
+@keyframes border-color-change {
+  0% {
+    border-color: blue;
+  }
+  20% {
+    border-color: green;
+  }
+  40% {
+    border-color: yellow;
+  }
+  60% {
+    border-color: pink;
+  }
+  80% {
+    border-color: purple;
+  }
+  100% {
+    border-color: blue;
+  }
+}

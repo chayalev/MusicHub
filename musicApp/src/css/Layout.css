@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+/* Layout container styles */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  width: 80vw;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #1f2153;
+  color: #fff; /* Light text color */
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60px; /* Adjust height as needed */
+  padding: 0 20px;
+}
+
+.navbar-item {
+  margin-right: 10px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  transition: background-color 0.3s, font-size 0.3s;
+}
+
+.navbar-link:hover {
+  color: purple;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar-link.active {
+  background-color: #35365c; /* צבע רקע מיוחד ללשונית פעילה */
+  border-radius: 5px; /* קצת עיגול לפינות */
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.profile-icon {
+  margin-left: auto; /* Align profile icon to the right */
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.site-logo {
+  height: 80px;
+  cursor: pointer;
+}
+
+/* Main content area */
+.main-layout-content {
+  flex-grow: 1; /* Grow to fill remaining space */
+  padding: 20px;
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds viewport */
+}
+
+/* User details modal */
+.user-details {
+  text-align: right;
+}
+
+.user-details p {
+  margin: 10px 0;
+}
+
+.user-details button {
+  margin: 10px 5px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff; /* Bootstrap's primary color */
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-details button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .navbar-list {
+    flex-direction: column; /* Stack links vertically on smaller screens */
+    height: auto; /* Allow height to adjust as needed */
+  }
+
+  .navbar-item {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}

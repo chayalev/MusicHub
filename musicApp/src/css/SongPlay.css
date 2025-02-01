@@ -1,0 +1,136 @@
+/* .song_details {
+  position: fixed;
+    left: 0;
+    top: 0;
+  max-width: 20vw;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.song_details img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.song-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.song-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.likes-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.likes-container .thumbs-icon {
+  font-size: 24px;
+  margin-left: 8px;
+  transition: color 0.3s;
+}
+
+.likes-container.liked .thumbs-icon {
+  color: #007bff;
+}
+
+.likes-count {
+  font-size: 20px;
+  color: #333;
+}
+
+.song-details p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.audio-player {
+  width: 100%;
+  margin-top: 20px;
+}
+ */
+
+ .song_details {
+  position: fixed;
+  left: 0;
+  top: 0;
+  max-width: 20vw;
+  height: 100vh; /* הגדר את הגובה ל-100vh כדי לאפשר גלילה אנכית */
+  overflow-y: scroll; /* אפשר גלילה אנכית */
+  scrollbar-width: none; /* מוסתר סרגל גלילה עבור פיירפוקס */
+  -ms-overflow-style: none; /* מוסתר סרגל גלילה עבור אינטרנט אקספלורר ואדג' */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* מוסתר סרגל גלילה עבור כרום, ספארי ואופרה */
+.song_details::-webkit-scrollbar {
+  display: none;
+}
+
+.song_details img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.song-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.song-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.likes-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.likes-container .thumbs-icon {
+  font-size: 24px;
+  margin-left: 8px;
+  transition: color 0.3s;
+}
+
+.likes-container.liked .thumbs-icon {
+  color: #007bff;
+}
+
+.likes-count {
+  font-size: 20px;
+  color: #333;
+}
+
+.song-info p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.audio-player {
+  width: 100%;
+  margin-top: 20px;
+}
+

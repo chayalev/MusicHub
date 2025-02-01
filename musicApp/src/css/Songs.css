@@ -1,0 +1,67 @@
+
+   .songs-container {
+    text-align: center;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters input,
+  .filters select {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .songs-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+  
+  .song-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    position: relative;
+  }
+  
+  .song-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .song-card h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .like-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .add-song-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-song-button:hover {
+    background-color: #45a049;
+  }

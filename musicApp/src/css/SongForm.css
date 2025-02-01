@@ -1,0 +1,155 @@
+/* .song-form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .song-form-container h2 {
+    text-align: center;
+  }
+  
+  .song-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .song-form-container form input,
+  .song-form-container form button {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .song-form-container form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .song-form-container form button:hover {
+    background-color: #45a049;
+  }
+  
+  .song-form-container img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .song-form-container audio {
+    display: block;
+    margin: 20px auto;
+  }
+   */
+   .song-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .song-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff5f5;
+  }
+  
+  .song-form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .song-form-container input,
+  .song-form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .song-form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .song-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .song-form-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  .song-form-container audio {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .file-upload-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .file-upload-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .file-upload-container label {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .file-upload-container label:hover {
+    background-color: #0056b3;
+  }
+  
+  .file-upload-container .file-name {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #fff9f9;
+  }
+  
+  

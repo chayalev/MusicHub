@@ -1,0 +1,142 @@
+
+.add-playlist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.radio-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.songs-list {
+  margin-top: 20px;
+  width: 100%;
+  
+}
+
+.song-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  /* justify-content: space-between; */
+}
+
+.song-item label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.songs-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.songs-details img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.songs-details div {
+  display: flex;
+  flex-direction: column;
+}
+
+.songs-details span {
+  margin-bottom: 2px;
+}
+
+.btn {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.song-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .songs-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .song-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .song-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .song-name {
+    font-weight: bold;
+  }
+  
+  .song-artist {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .song-item {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .songs-details {
+    display: flex;
+    align-items: center;
+    width: 200%;
+  }
+  
+  .song-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    /* margin-right: 10px; */
+    border-radius: 5px;
+  }
+  
+  .song-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .song-name {
+    font-weight: bold;
+  }
+  
+  .song-artist {
+    font-size: 0.9em;
+    color: #555;
+  }
+  .scrollable-container {
+    width: 100%; /* רוחב מלא של האלמנט האב */
+    height: 150px; /* גובה קבוע */
+    overflow-y: auto; /* סרגל גלילה אנכי */
+    border: 1px solid #ccc; /* מסגרת מסביב לדיב */
+    padding: 10px; /* ריפוד פנימי */
+    background-color: #f9f9f9; /* צבע רקע */
+  }

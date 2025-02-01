@@ -1,0 +1,88 @@
+/* .playlist-songs-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  } */
+  
+  .playlist-songs-container {
+    color: black;
+    position: fixed;
+      left: 0;
+      top: 0;
+    max-width: 20vw;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll; /* אפשר גלילה אנכית */
+    scrollbar-width: none; /* מוסתר סרגל גלילה עבור פיירפוקס */
+    -ms-overflow-style: none; /* מוסתר סרגל גלילה עבור אינטרנט אקספלורר ואדג' */
+    border: solid #1f2153 10px;
+  }
+  
+/* מוסתר סרגל גלילה עבור כרום, ספארי ואופרה */
+.song_details::-webkit-scrollbar {
+  display: none;
+}
+
+  .song-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .song-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer; /* סמן יד */
+    transition: background-color 0.3s ease;
+  }
+  
+  .song-item:hover {
+    background-color: rgba(220, 220, 220, 0.5); /* רקע אפור בהיר עם שקיפות של 50% */
+  }
+  
+  .songs-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .song-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  audio {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .song-item.playing {
+    background-color: rgba(22, 85, 232, 0.6); /* רקע ירוק בהיר עם שקיפות של 30% */
+    font-weight: bold;
+  }
+
+  .playlist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  

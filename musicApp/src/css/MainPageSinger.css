@@ -1,0 +1,133 @@
+body {
+  background-color: #1e1e2e;
+  color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* יישור אנכי למרכז הדף */
+}
+
+.singer_home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 90%; /* מוודא שהתוכן לא יתפרש על כל הרוחב */
+  max-width: 1200px; /* מגדיר רוחב מקסימלי לתוכן */
+  margin: 0 auto;
+}
+
+.profile_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.profile_image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.profile_actions {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.icon_button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+.icon_button:hover {
+  color: #ff5722;
+}
+
+.icon_button svg {
+  margin-left: 5px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.button_group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #ff22a3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 1em;
+  width: 200px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #b93c79;
+}
+
+.tops_group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* מרכז את כל הקבוצה */
+  gap: 20px; /* מוסיף מרווח בין האלמנטים */
+  flex-wrap: wrap; /* מאפשר לשירים לרדת לשורה חדשה אם יש צורך */
+}
+
+.song_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 200px; /* מוודא שכל שיר יישאר בגודל אחיד */
+}
+
+.song_image {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.song_info h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.song_info p {
+  font-size: 1em;
+  margin: 0;
+}
