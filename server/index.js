@@ -11,6 +11,10 @@ import songPlay from './index/songPlay.js'
 import comments from './index/comments.js'
 import playlist from './index/playlist.js'
 
+import dotenv from "dotenv";
+dotenv.config();
+
+
 const app = express();
 const PORT = 8080;
 
